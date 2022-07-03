@@ -1,0 +1,30 @@
+create table books
+(
+bookcode int primary key,
+bookname varchar(30),
+category varchar(20),
+author varchar(20),
+publication varchar(20),
+edition int,
+price int check(price>0)
+);
+
+
+
+insert into books values(100,'Think Like a Monk','Self-help','Jay Shetty','Thorsons',2020,320);
+insert into books values(101,'Avengers','Action','Marval Comics','Harry Abrams',2018,546);
+insert into books values(102,'Thor','Action','Marval Comics','Harry Abrams',2020,435);
+insert into books values(103,'Godzila','Adventure','Chris Mowry','IDW Publishing',2022,1900);
+insert into books values(104,'The Call Of The Wild','Adventure','Jack London','Om Books',2015,250);
+insert into books values(105,'Lots In love','Romance','Arvind Parshar','Srishti Publisher',2018,174);
+insert into books values(106,'Despite Stolen Dreams','Horror','Ankita Krishna','Fingerprint',2017,172);
+insert into books values(107,'Becoming','Autobiography','Michelle Obama','Viking Press',2018,650);
+insert into books values(108,'Educated','Autobiography','Tara Westover','Random House',2018,800);
+insert into books values(109,'Tears Of Jhelum','Horror','Ankita Krishna','Fingerprint',2014,220);
+insert into books values(110,'Iron Man','Action','Marvel Comics','Harry Abrams',2019,650);
+insert into books values(111,'The Notebook','Romance','Nicholas Sparks','Warner Books',1996,890);
+
+
+
+
+
